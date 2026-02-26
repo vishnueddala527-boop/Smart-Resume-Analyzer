@@ -3,10 +3,10 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws Exception {
         // ✅ Absolute path to resume
-        String resumePath = "C:\\Users\\akhil\\OneDrive\\Documents\\SmartResumeAnalyzer\\SmartResumeAnalyzer\\data\\sample_resume.pdf";
+        String resumePath = "resumes/vishnu-priya.pdf";
 
         // ✅ Absolute path to keywords
-        String keywordsPath = "C:\\Users\\akhil\\OneDrive\\Documents\\SmartResumeAnalyzer\\SmartResumeAnalyzer\\data\\job_keywords.txt";
+        String keywordsPath = "data/job_keywords.txt";
 
         // Step 1: Extract text from resume
         String resumeText = ResumeParser.extractTextFromPDF(resumePath);
